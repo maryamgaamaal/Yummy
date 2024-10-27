@@ -1,0 +1,44 @@
+.navv {
+    width: 60px;
+}
+
+li,
+.div,
+i {
+    cursor: pointer;
+}
+
+.sidebar {
+    z-index: 999;
+}
+
+.layer {
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.7);
+    transition: 0.5s;
+}
+
+.div:hover .layer {
+    top: 0;
+}
+
+.loadingScreen {
+    z-index: 9999;
+    display: flex;
+}
+
+body {
+    overflow: hidden;
+}
+
+.innerloadingScreen {
+    z-index: 99;
+    display: flex;
+    position: absolute;
+}
+
+input::placeholder {
+    color: gray !important;
+}
